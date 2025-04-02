@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
     const buscarBtn = document.getElementById("buscar");
     const apiKey = "86a5801ad71b5a72464920cfc6de6307"; // Substitua por sua chave real
-
+    
+document.getElementById("next").addEventListener("click", function () {
+    window.location.href = "indextst.html"; // Redireciona para a segunda página
+});
     buscarBtn.addEventListener("click", function () {
         let cidade = document.getElementById("cidade").value.trim();
 
